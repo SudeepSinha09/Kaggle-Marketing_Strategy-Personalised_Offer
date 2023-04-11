@@ -4,12 +4,16 @@
 This is a machine learning project that predict the behavior regarding offers and discounts. The dataset used in this project was provided by Kaggle.
 
 ## About Me
-My name is Sudeep Sinha, and I completed this machine learning project on Kaggle under the supervision of IIT Madras. The dataset was provided by Kaggle as part of a contest, and where **I achieved a ranking of 21 out of 364 participants, which puts me in the top 6% of participants.** After completing the project contest, **I gave a viva to IIT Madras POD and received an A grade for the project viva.**
+My name is Sudeep Sinha, and I completed this machine learning project on Kaggle under the supervision of IIT Madras. The dataset was provided by Kaggle as part of a contest, and where **I achieved a ranking of 21 out of 364 participants, which puts me in the top 6% of participants.** After completing the project contest, I gave a viva to IIT Madras POD and **received an A grade for the project viva.**
 
 ## About the Project
-The objective of this project was to understand user behavior regarding offers and discounts. The data was collected through a survey where participants were given different scenarios to assess their preference for discount/offers for dining/takeaway. Along with the user response, some basic information about the users was also collected.
+To approach this project, I followed several steps. Firstly, I looked at the big picture of the project and identified the problem as a multi-class classification problem. Secondly, I obtained the data, which included samples of the training and test data, data statistics, and information. Thirdly, I performed exploratory data analysis (EDA) using plots such as scatter plots to analyze the data.
 
-For example, a scenario might be presented to a user as follows: "You are driving from IIT Madras to Chennai Airport along with your family and you get an offer (10 percent discount on the bill) from the famous Chinese restaurant in Guindy. Will you avail of the offer while traveling?"
+Fourthly, I conducted data visualization to create a correlation matrix and heatmap to gain insights into the relationship between variables. After this, I prepared the data for machine learning algorithms by separating features and labels from the training and test sets and using various techniques like MinMaxScaler, StandardScaler, MaxAbsScaler, and LabelBinarizer for data cleaning and preprocessing.
+
+Fifthly, I selected and trained various machine learning models such as Baseline model, Random Forest, Bagging, Boosting, and XGBoost by performing hyperparameter tuning to improve their performance. Finally, I submitted my sample output to the contest, which represented the output of my machine learning model selection.
+
+Overall, this project was a great learning experience for me. It allowed me to develop skills in data analysis, visualization, and machine learning. The guidance and supervision of IIT Madras helped me to refine my skills and achieve an excellent outcome in the contest, which was recognized by the A grade that I received for my viva. I am grateful for the opportunity to have worked on this project and hope to continue developing my skills in machine learning and data analysis.
 
 ## Project Details
 ### Project Name
@@ -17,6 +21,10 @@ Marketing Strategy - Personalised Offer
 
 ### Problem Statement
 The aim of this project was to gain insights into user behavior and develop a marketing strategy to personalize offers to increase the probability of customers availing of these offers.
+
+The objective of this project was to understand user behavior regarding offers and discounts. The data was collected through a survey where participants were given different scenarios to assess their preference for discount/offers for dining/takeaway. Along with the user response, some basic information about the users was also collected.
+
+For example, a scenario might be presented to a user as follows: "You are driving from IIT Madras to Chennai Airport along with your family and you get an offer (10 percent discount on the bill) from the famous Chinese restaurant in Guindy. Will you avail of the offer while traveling?
 
 ### Steps Taken
 Here are the steps I took to complete this project:
